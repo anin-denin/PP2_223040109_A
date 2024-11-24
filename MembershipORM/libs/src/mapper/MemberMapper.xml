@@ -1,0 +1,5 @@
+<mapper namespace="mapper.MemberMapper">
+    <select id="selectAll" resultType="model.Member">
+        SELECT * FROM Member
+    </select>
+</mapper>
